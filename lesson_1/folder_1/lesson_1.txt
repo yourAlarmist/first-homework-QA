@@ -1,0 +1,55 @@
+  223  ls
+  224  mkdir Ksendzov-Lessons
+  225  cd Ksendzov-Lessons/
+  226  mkdir lesson_1
+  227  ls
+  228  ../
+  229  cd ..
+  230  ls
+  231  cd Ksendzov-Lessons/
+  232  ls
+  233  cd lesson_1/
+  234  pwd
+  235  mkdir folder_1
+  236  cd folder_1/
+  237  mkdir folder_1_1
+  238  mkdir folder_1_2
+  239  mkdir folder_1_3
+  240  cd folder_1_1
+  241  echo "" file1_1_1.txt
+  242  ls
+  243  echo "anyText" file1_1_1.txt
+  244  touch file_1_1_1.txt
+  245  touch file_1_1_2.txt
+  246  touch file_1_1_3.txt
+  247  touch file_1_1_4.json
+  248  touch file_1_1_5.json
+  249  ls
+  250  mkdir folder_1_1_1
+  251  mkdir folder_1_1_2
+  252  mkdir folder_1_1_3
+  253  ls
+  254  less file_1_1_1
+  255  less file_1_1_1.txt
+  256  nano file_1_1_1.txt
+  257  cd ..
+  258  ls
+  259  mv ./file_1_1_1.txt ./folder_1_2
+  260  mv ./file_1_1_1 ./folder_1_2
+  261  mv ./folder_1_1/file_1_1_1 ./folder_1_2
+  262  mv ./folder_1_1/file_1_1_1.txt ./folder_1_2
+  263  mv ./folder_1_1/file_1_1_4.json ./folder_1_3
+  264  grep -r file_1_1_1.txt
+  265  cp ./folder_1_1/file_1_1_2.txt ./folder_1_2
+  266  cp ./folder_1_1/file_1_1_3.txt ./folder_1_3
+  267  find ./ file_1_1_2.txt
+  268  find ./folder_1_1 file_1_1_2.txt
+  269  grep Hi ./folder_1_2/file_1_1_1.txt
+  270  head ./folder_1_2/file_1_1_1.txt
+  271  tail ./folder_1_2/file_1_1_1.txt
+  272  less ./folder_1_2/file_1_1_1.txt
+  273  date
+  274  history > lesson_1.txt
+  275  curl http://162.55.220.72:5005/terminal-hw-request
+  276  curl www.google.com
+  277  history 55 > lesson_1.txt
